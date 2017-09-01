@@ -1,9 +1,9 @@
 #include "simulation/Elements.h"
-//#TPT-Directive ElementClass Element_E184 PT_E184 184
-Element_E184::Element_E184()
+//#TPT-Directive ElementClass Element_E185 PT_E185 185
+Element_E185::Element_E185()
 {
-	Identifier = "DEFAULT_PT_E184";
-	Name = "E184";
+	Identifier = "DEFAULT_PT_E185";
+	Name = "E185";
 	Colour = PIXPACK(0xFFA0A0);
 	MenuVisible = 1;
 	MenuSection = SC_POWDERS;
@@ -47,4 +47,4 @@ Element_E184::Element_E184()
 }
 
 
-Element_E184::~Element_E184() {}
+Element_E185::~Element_E185() {}
