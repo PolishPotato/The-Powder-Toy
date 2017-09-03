@@ -6,7 +6,7 @@ Element_E186::Element_E186()
 	Name = "E186";
 	Colour = PIXPACK(0xFFA0A0);
 	MenuVisible = 1;
-	MenuSection = SC_POWDERS;
+	MenuSection = SC_EXPLOSIVE;
 	Enabled = 1;
 
 	Advection = 0.7f;
