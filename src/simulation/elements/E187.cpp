@@ -63,6 +63,10 @@ int Element_E187::update(UPDATE_FUNC_ARGS)
 				if (!r)
 					continue;
 				rt = r&0xFF;
+				float dx, dy;
+				dx = parts[i].x - parts[r>>8].x;
+				dy = parts[i].y - parts[r>>8].y;
+
 				//Stickiness
 				if ((dx*dx + dy*dy)>1.5 && (gel || !sim->elements[rt].Falldown || (fabs((float)rx)<2 && fabs((float)ry)<2)))
 				{
